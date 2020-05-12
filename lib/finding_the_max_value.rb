@@ -1,12 +1,10 @@
 def find_max_value(array)
-  counter = 0
+  count = 0
   max_value = 0
   while array[counter] do
-    array[counter] == max_value
-    if  array[counter] == max_value
-      return max_value
-    else
-      count += 1
+    if max_value < array[count]
+      max_value == array[count]
     end
+    count += 1
   end
 end
